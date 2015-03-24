@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.onestong.app.view.BottomControlPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"  
+    android:gravity="center_vertical"  
+    android:paddingLeft="20dp"  
+    android:paddingRight="20dp">
+    
+    <com.onestong.app.view.ImageText 
+        android:id="@+id/btn_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"/>
+    
+    <com.onestong.app.view.ImageText 
+        android:id="@+id/btn_yixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_event"/>
+    
+    <com.onestong.app.view.ImageText 
+        android:id="@+id/btn_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_yixin"/>
+    
+    <com.onestong.app.view.ImageText 
+        android:id="@+id/btn_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+</com.onestong.app.view.BottomControlPanel>
+    
